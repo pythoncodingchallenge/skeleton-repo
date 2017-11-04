@@ -7,7 +7,7 @@ from time import clock
 app = Flask(__name__)
 
 
-# IMPORTANT: DO NOT CHANGE THIS FUNCTION
+# IMPORTANT: DO NOT CHANGE THIS FUNCTION UNDER ANY CIRCUMSTANCES
 @app.route('/runall', methods=['POST'])
 def runall():
     q1inputs = request.data
